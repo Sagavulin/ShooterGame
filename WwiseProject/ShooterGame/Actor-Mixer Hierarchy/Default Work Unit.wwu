@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CCF98CBC-9E23-4638-8B85-68CA1AB6C221}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{CCF98CBC-9E23-4638-8B85-68CA1AB6C221}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="TEST" ID="{B0295098-ACF2-41CA-B526-32DFCEF377B8}" ShortID="481876729">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BFC31014-0127-49BA-9019-3170B75D4CC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C25A68F3-4BB7-42F6-B090-7FF19611EF52}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SYNC_BEEP" ID="{EA3B0F98-4511-451E-A1AF-7029EDDCD639}" ShortID="63650156">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BFC31014-0127-49BA-9019-3170B75D4CC4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C25A68F3-4BB7-42F6-B090-7FF19611EF52}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SYNC_BEEP" ID="{33E14305-750F-4D5B-9EF8-925342B156BB}">
+									<Language>SFX</Language>
+									<AudioFile>SYNC_BEEP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="509895091"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SYNC_BEEP" ID="{33E14305-750F-4D5B-9EF8-925342B156BB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SYNC_LOOP" ID="{BD974C97-7142-4951-A4BF-ABD219F64574}" ShortID="991737204">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BFC31014-0127-49BA-9019-3170B75D4CC4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C25A68F3-4BB7-42F6-B090-7FF19611EF52}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SYNC_LOOP" ID="{A390E27C-6D86-4D53-AA0C-FD8194C0CE76}">
+									<Language>SFX</Language>
+									<AudioFile>SYNC_LOOP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="415157006"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SYNC_LOOP" ID="{A390E27C-6D86-4D53-AA0C-FD8194C0CE76}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

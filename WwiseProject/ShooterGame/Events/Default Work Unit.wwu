@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E8DB7F5-A2DE-4687-BE1A-FB62DD6FE85B}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5E8DB7F5-A2DE-4687-BE1A-FB62DD6FE85B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="TEST" ID="{07ADD29C-AC9C-4429-A161-186935DD9B91}" ShortID="453414695">
+					<ChildrenList>
+						<Event Name="Play_SYNC_BEEP" ID="{AB23A3ED-0489-411E-8473-60537428B4A6}">
+							<ChildrenList>
+								<Action Name="" ID="{E655AB9B-55CF-4452-A276-CB7C9D510237}" ShortID="5636019">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SYNC_BEEP" ID="{EA3B0F98-4511-451E-A1AF-7029EDDCD639}" WorkUnitID="{CCF98CBC-9E23-4638-8B85-68CA1AB6C221}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SYNC_LOOP" ID="{31CBE7DD-9ED7-429A-922B-2AF4B8B4270E}">
+							<ChildrenList>
+								<Action Name="" ID="{78B2FD49-3EDD-49AB-96B1-6DD53C154DA5}" ShortID="143683489">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SYNC_LOOP" ID="{BD974C97-7142-4951-A4BF-ABD219F64574}" WorkUnitID="{CCF98CBC-9E23-4638-8B85-68CA1AB6C221}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

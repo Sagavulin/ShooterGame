@@ -1,0 +1,25 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\",
+   "SourceFilesRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}
