@@ -29,6 +29,59 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Weapons" ID="{87A41BC7-7441-48F6-9134-17B90FAEE074}" ShortID="113070483">
+					<ChildrenList>
+						<Folder Name="Shoot" ID="{6E6643DA-1B6B-47FD-9333-37EE2B7E1191}" ShortID="756733008">
+							<ChildrenList>
+								<Folder Name="AssaultRifle" ID="{463F7D48-6F3D-44D8-8F49-5AEC13A3897A}" ShortID="418887945">
+									<ChildrenList>
+										<Event Name="SFX_WEP_AssaultRifle_Shoot" ID="{F1FA370E-C32A-4E6C-BFBE-F4F5DDB2E503}">
+											<ChildrenList>
+												<Action Name="" ID="{13E87E58-51FB-48A0-A895-483619897B4B}" ShortID="369994080">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Weapon_AssaultRifle_Shoot" ID="{B2347B49-E249-4399-883F-804A1D9959A8}" WorkUnitID="{CCF98CBC-9E23-4638-8B85-68CA1AB6C221}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="GrenadeLauncher" ID="{70482F9E-824F-4F11-BE48-9AB5A73A4029}" ShortID="779738703">
+									<ChildrenList>
+										<Event Name="SFX_WEP_GrenadeLauncher_Shoot" ID="{93447F7E-34F0-465A-BE5F-7988010654BF}">
+											<ChildrenList>
+												<Action Name="" ID="{D792396E-9160-48B9-89F4-13984E592918}" ShortID="410048814">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Weapon_GrenadeLauncher_Shoot" ID="{28FD9919-4914-4AEC-9051-1D6CFC74F5A0}" WorkUnitID="{CCF98CBC-9E23-4638-8B85-68CA1AB6C221}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Explosion" ID="{AB541E8A-86A4-4D87-A4C0-13B3BF4BCB71}" ShortID="829271713">
+							<ChildrenList>
+								<Event Name="SFX_WEP_GrenadeLauncher_Explosion" ID="{C33F9152-9AFB-4B7A-93A9-C451F05EC468}">
+									<ChildrenList>
+										<Action Name="" ID="{EFE311A5-8669-4A4C-A49D-553BC1B0BEE8}" ShortID="596589854">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Weapon_GrenadeLauncher_Explosion" ID="{2A023F83-4404-4EBC-8108-6068CCE82889}" WorkUnitID="{CCF98CBC-9E23-4638-8B85-68CA1AB6C221}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

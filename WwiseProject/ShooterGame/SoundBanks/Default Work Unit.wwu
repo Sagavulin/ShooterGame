@@ -11,6 +11,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SB_Weapon" ID="{349FDEDD-5D69-4A1F-B139-CAE7933BB2C9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Weapons" ID="{87A41BC7-7441-48F6-9134-17B90FAEE074}" WorkUnitID="{5E8DB7F5-A2DE-4687-BE1A-FB62DD6FE85B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Weapons" ID="{187BEB9D-9893-4DCF-924E-05E18E255C4D}" WorkUnitID="{CCF98CBC-9E23-4638-8B85-68CA1AB6C221}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

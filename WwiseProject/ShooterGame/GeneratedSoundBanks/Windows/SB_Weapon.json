@@ -1,0 +1,194 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\user\\Documents\\Unreal Projects\\ShooterGame\\WwiseProject\\ShooterGame\\",
+   "SourceFilesRoot": "C:\\Users\\user\\Documents\\Unreal Projects\\ShooterGame\\WwiseProject\\ShooterGame\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\user\\Documents\\Unreal Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\user\\Documents\\Unreal Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "649986797",
+    "GUID": "{349FDEDD-5D69-4A1F-B139-CAE7933BB2C9}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Weapon",
+    "ShortName": "SB_Weapon",
+    "Path": "SB_Weapon.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1931328911",
+      "Name": "SFX_WEP_AssaultRifle_Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shoot\\AssaultRifle\\SFX_WEP_AssaultRifle_Shoot",
+      "GUID": "{F1FA370E-C32A-4E6C-BFBE-F4F5DDB2E503}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.687792",
+      "DurationMax": "0.690604",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "86730049",
+        "Language": "SFX",
+        "ShortName": "whiplash_shoot_02_03.wav",
+        "Path": "SFX\\whiplash_shoot_02_03_10C4C929.wem"
+       },
+       {
+        "Id": "471096783",
+        "Language": "SFX",
+        "ShortName": "whiplash_shoot_02_01.wav",
+        "Path": "SFX\\whiplash_shoot_02_01_10C4C929.wem"
+       },
+       {
+        "Id": "898535235",
+        "Language": "SFX",
+        "ShortName": "whiplash_shoot_02_02.wav",
+        "Path": "SFX\\whiplash_shoot_02_02_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2403812100",
+      "Name": "SFX_WEP_GrenadeLauncher_Explosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Explosion\\SFX_WEP_GrenadeLauncher_Explosion",
+      "GUID": "{C33F9152-9AFB-4B7A-93A9-C451F05EC468}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.179292",
+      "DurationMax": "1.185583",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "170826913",
+        "Language": "SFX",
+        "ShortName": "grenade_launcher_explosion-005.wav",
+        "Path": "SFX\\grenade_launcher_explosion-005_10C4C929.wem"
+       },
+       {
+        "Id": "298791687",
+        "Language": "SFX",
+        "ShortName": "grenade_launcher_explosion-001.wav",
+        "Path": "SFX\\grenade_launcher_explosion-001_10C4C929.wem"
+       },
+       {
+        "Id": "448761805",
+        "Language": "SFX",
+        "ShortName": "grenade_launcher_explosion-003.wav",
+        "Path": "SFX\\grenade_launcher_explosion-003_10C4C929.wem"
+       },
+       {
+        "Id": "626740079",
+        "Language": "SFX",
+        "ShortName": "grenade_launcher_explosion-002.wav",
+        "Path": "SFX\\grenade_launcher_explosion-002_10C4C929.wem"
+       },
+       {
+        "Id": "1066156776",
+        "Language": "SFX",
+        "ShortName": "grenade_launcher_explosion-004.wav",
+        "Path": "SFX\\grenade_launcher_explosion-004_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3718194484",
+      "Name": "SFX_WEP_GrenadeLauncher_Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shoot\\GrenadeLauncher\\SFX_WEP_GrenadeLauncher_Shoot",
+      "GUID": "{93447F7E-34F0-465A-BE5F-7988010654BF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.630045",
+      "DurationMax": "0.662222",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "108357621",
+        "Language": "SFX",
+        "ShortName": "grenade_launcher_shoot_02.wav",
+        "Path": "SFX\\grenade_launcher_shoot_02_10C4C929.wem"
+       },
+       {
+        "Id": "690164547",
+        "Language": "SFX",
+        "ShortName": "grenade_launcher_shoot_01.wav",
+        "Path": "SFX\\grenade_launcher_shoot_01_10C4C929.wem"
+       },
+       {
+        "Id": "844524274",
+        "Language": "SFX",
+        "ShortName": "grenade_launcher_shoot_03.wav",
+        "Path": "SFX\\grenade_launcher_shoot_03_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "86730049",
+      "Language": "SFX",
+      "ShortName": "whiplash_shoot_02_03.wav",
+      "Path": "SFX\\whiplash_shoot_02_03_10C4C929.wem"
+     },
+     {
+      "Id": "108357621",
+      "Language": "SFX",
+      "ShortName": "grenade_launcher_shoot_02.wav",
+      "Path": "SFX\\grenade_launcher_shoot_02_10C4C929.wem"
+     },
+     {
+      "Id": "170826913",
+      "Language": "SFX",
+      "ShortName": "grenade_launcher_explosion-005.wav",
+      "Path": "SFX\\grenade_launcher_explosion-005_10C4C929.wem"
+     },
+     {
+      "Id": "298791687",
+      "Language": "SFX",
+      "ShortName": "grenade_launcher_explosion-001.wav",
+      "Path": "SFX\\grenade_launcher_explosion-001_10C4C929.wem"
+     },
+     {
+      "Id": "448761805",
+      "Language": "SFX",
+      "ShortName": "grenade_launcher_explosion-003.wav",
+      "Path": "SFX\\grenade_launcher_explosion-003_10C4C929.wem"
+     },
+     {
+      "Id": "471096783",
+      "Language": "SFX",
+      "ShortName": "whiplash_shoot_02_01.wav",
+      "Path": "SFX\\whiplash_shoot_02_01_10C4C929.wem"
+     },
+     {
+      "Id": "626740079",
+      "Language": "SFX",
+      "ShortName": "grenade_launcher_explosion-002.wav",
+      "Path": "SFX\\grenade_launcher_explosion-002_10C4C929.wem"
+     },
+     {
+      "Id": "690164547",
+      "Language": "SFX",
+      "ShortName": "grenade_launcher_shoot_01.wav",
+      "Path": "SFX\\grenade_launcher_shoot_01_10C4C929.wem"
+     },
+     {
+      "Id": "844524274",
+      "Language": "SFX",
+      "ShortName": "grenade_launcher_shoot_03.wav",
+      "Path": "SFX\\grenade_launcher_shoot_03_10C4C929.wem"
+     },
+     {
+      "Id": "898535235",
+      "Language": "SFX",
+      "ShortName": "whiplash_shoot_02_02.wav",
+      "Path": "SFX\\whiplash_shoot_02_02_10C4C929.wem"
+     },
+     {
+      "Id": "1066156776",
+      "Language": "SFX",
+      "ShortName": "grenade_launcher_explosion-004.wav",
+      "Path": "SFX\\grenade_launcher_explosion-004_10C4C929.wem"
+     }
+    ]
+   }
+  ]
+ }
+}
