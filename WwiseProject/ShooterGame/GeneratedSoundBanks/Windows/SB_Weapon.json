@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\user\\Documents\\Unreal Projects\\ShooterGame\\WwiseProject\\ShooterGame\\",
-   "SourceFilesRoot": "C:\\Users\\user\\Documents\\Unreal Projects\\ShooterGame\\WwiseProject\\ShooterGame\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\user\\Documents\\Unreal Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\",
+   "SourceFilesRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\user\\Documents\\Unreal Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
