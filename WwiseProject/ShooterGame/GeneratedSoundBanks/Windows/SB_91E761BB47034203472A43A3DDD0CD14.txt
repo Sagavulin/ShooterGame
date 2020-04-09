@@ -1,0 +1,4 @@
+Event	ID	Name			Wwise Object Path	Notes
+	921078508	Play_SYNC_LOOP			\Default Work Unit\TEST\Play_SYNC_LOOP	
+	1352449698	Play_SYNC_BEEP			\Default Work Unit\TEST\Play_SYNC_BEEP	
+

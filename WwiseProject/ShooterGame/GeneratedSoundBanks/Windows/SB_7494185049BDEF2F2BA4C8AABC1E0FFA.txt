@@ -1,0 +1,5 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1931328911	SFX_WEP_AssaultRifle_Shoot			\Default Work Unit\Weapons\Shoot\AssaultRifle\SFX_WEP_AssaultRifle_Shoot	
+	2403812100	SFX_WEP_GrenadeLauncher_Explosion			\Default Work Unit\Weapons\Explosion\SFX_WEP_GrenadeLauncher_Explosion	
+	3718194484	SFX_WEP_GrenadeLauncher_Shoot			\Default Work Unit\Weapons\Shoot\GrenadeLauncher\SFX_WEP_GrenadeLauncher_Shoot	
+

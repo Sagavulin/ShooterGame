@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\",
+   "SourceFilesRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\Personal\\Unreal_Projects\\ShooterGame\\WwiseProject\\ShooterGame\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "213292096",
+    "GUID": "{0CB69440-9440-1440-4040-404040404040}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_91E761BB47034203472A43A3DDD0CD14",
+    "ShortName": "SB_91E761BB47034203472A43A3DDD0CD14",
+    "Path": "SB_91E761BB47034203472A43A3DDD0CD14.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1352449698",
+      "Name": "Play_SYNC_BEEP",
+      "ObjectPath": "\\Events\\Default Work Unit\\TEST\\Play_SYNC_BEEP",
+      "GUID": "{AB23A3ED-0489-411E-8473-60537428B4A6}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.054375",
+      "DurationMax": "8.054375",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "509895091",
+        "Language": "SFX",
+        "ShortName": "SYNC_BEEP.wav",
+        "Path": "SFX\\SYNC_BEEP_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "921078508",
+      "Name": "Play_SYNC_LOOP",
+      "ObjectPath": "\\Events\\Default Work Unit\\TEST\\Play_SYNC_LOOP",
+      "GUID": "{31CBE7DD-9ED7-429A-922B-2AF4B8B4270E}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "415157006",
+        "Language": "SFX",
+        "ShortName": "SYNC_LOOP.wav",
+        "Path": "SFX\\SYNC_LOOP_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
